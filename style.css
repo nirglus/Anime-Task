@@ -31,4 +31,10 @@ body{
     background-repeat: no-repeat;
     filter: drop-shadow(-10px -2px 1px #000);
     transform: translate(40%,-15%);
+    animation: luigi-come-fight 5s;
+    animation: luigi-come-fight 5s 3s infinite;
+}
+@keyframes luigi-come-fight{
+    from{background-image: url(images/luigi-clap.gif)}
+    to{background-image: url(images/luigi-jump.gif);}
 }
